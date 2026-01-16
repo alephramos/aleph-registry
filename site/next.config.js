@@ -2,7 +2,6 @@
 
 const nextConfig = {
   output: "export",
-  distDir: "../public",
   env: {
     name: "Aleph Registry",
     description: "The aleph workspaces.",
@@ -12,7 +11,6 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: "/kasm-registry/1.1",
   trailingSlash: true,
   images: {
     unoptimized: true,
